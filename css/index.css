@@ -1,0 +1,52 @@
+/* RESETEO */
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(45deg, royalblue, #131111);
+    color: coral;
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+main{
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.jc-center{
+    justify-content: center;
+}
+.jc-between{
+    justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+/* MENU NAVEGACION */
+.nav-list{
+    background: #000;
+    padding: .5rem;
+    gap: 1rem;
+}
