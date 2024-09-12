@@ -1,1 +1,4 @@
 ## REPOSITORIO DE PRACTICA PARA APRENDER GIT ##
+-Leandro
+-Jose 
+-Braian
